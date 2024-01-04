@@ -1,7 +1,7 @@
 import './styles.css';
 import { useState } from 'react';
 
-export default function CollapseSidebar() {
+export default function SidNav() {
     const [show, setShow] = useState(true);
     return (
         <div>

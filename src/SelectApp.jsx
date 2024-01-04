@@ -1,6 +1,7 @@
 import React from 'react';
 import { Select } from 'antd';
-import './styles.css';
+import './SelectApp.css';
+
 const onChange = (value) => {
     console.log(`selected ${value}`);
 };
@@ -15,7 +16,7 @@ const SelectApp = () => (
     <Select
         showSearch
         placeholder="Select an App"
-        className="SelectApp"
+        className="selectApp"
         optionFilterProp="children"
         onChange={onChange}
         onSearch={onSearch}

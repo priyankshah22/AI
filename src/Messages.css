@@ -1,0 +1,31 @@
+.messagesContainer {
+
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    letter-spacing: 1.25px;
+}
+
+.user-message {
+    font-size: 1.25rem;
+    color: black;
+    margin: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    max-width: 85%;
+    word-wrap: break-word;
+
+}
+
+.bot-message {
+    font-size: 1.25rem;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    margin-left: 80px;
+    padding: 10px;
+    border-radius: 20px;
+    max-width: 85%;
+    word-wrap: break-word;
+    display: inline-block;
+}

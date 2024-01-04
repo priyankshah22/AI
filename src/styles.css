@@ -1,4 +1,78 @@
-.container {
+html {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 98vh;
+
+}
+
+.pageBody {
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    height: 90vh;
+}
+
+.sideNav {
+    flex: .33;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.chatWindow {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: #f3f6fc;
+    margin-right: 50px;
+    margin-left: 40px;
+    border-radius: 40px;
+}
+
+
+.promptContainer {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-end;
+    margin-bottom: 30px;
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.conversationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 90%;
+    padding: 10px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+
+.conversationContainer::-webkit-scrollbar {
+    background-color: transparent;
+    width: 12px;
+}
+
+
+.conversationContainer::-webkit-scrollbar-thumb {
+    background-color: #6b6b6b;
+    border-radius: 10px;
+}
+
+
+
+
+/* .container {
     display: grid;
     height: 100vh;
     grid-template-areas:
@@ -9,14 +83,7 @@
 }
 
 
-/* .rightSide {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 10px;
-    height: 90vh;
-    overflow-y: scroll;
-} */
+
 
 .ChatMessage {
     display: flex;
@@ -28,14 +95,7 @@
 
 }
 
-.user-message {
-    display: flex;
-    background-color: #f2f2f2;
-    color: black;
-    margin: 5px 0;
-    padding: 10px;
-    border-radius: 10px
-}
+
 
 .bot-message {
     padding: 10px;
@@ -114,4 +174,4 @@
     }
 
 
-}
+} */

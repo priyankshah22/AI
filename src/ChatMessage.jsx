@@ -1,24 +1,17 @@
 import React from "react"
-// import { useState } from "react";
-import "./styles.css"
-// import { Input } from 'antd';
-
 
 const ChatMessage = ({ messages }) => (
-    <div className="ChatMessage">
-        <div className="messages">
+    <div>
+        <div>
             {messages.map((message, index) => (
                 <div key={index} className={message.isUser ? "user-message" : "bot-message"}>
                     {message.text}
-
                 </div>
             ))}
         </div>
     </div>
 );
-
 export default ChatMessage;
-
 
 // export default function ChatMessage() {
 //     const [input, setInput] = useState("");
